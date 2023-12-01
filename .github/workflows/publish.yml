@@ -12,20 +12,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 21
-          cache: "yarn"
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Create release Pull Requests or Publish
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: yarn run release
+          publish: pnpm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
