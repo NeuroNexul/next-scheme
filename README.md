@@ -1,8 +1,8 @@
-# Next Theme
+# Next Scheme
 
-<!-- [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/neuronexul/next-theme/CI?style=flat-square)]() -->
+<!-- [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/neuronexul/next-scheme/CI?style=flat-square)]() -->
 
-Elevate your Next.js (v13+) applications with 'next-theme', a type-safe Node.js package designed to streamline theme and palette creation and management. Empower developers to effortlessly integrate and manage themes within Next.js projects, ensuring consistency, extensibility, and scalability. With 'next-theme', efficiently handle themes and color palettes, enabling seamless customization and enhanced user experiences across your Next.js applications.
+Elevate your Next.js (v13+) applications with 'next-scheme', a type-safe Node.js package designed to streamline theme and palette creation and management. Empower developers to effortlessly integrate and manage themes within Next.js projects, ensuring consistency, extensibility, and scalability. With 'next-scheme', efficiently handle themes and color palettes, enabling seamless customization and enhanced user experiences across your Next.js applications.
 
 ## Key Features:
 
@@ -13,7 +13,7 @@ Elevate your Next.js (v13+) applications with 'next-theme', a type-safe Node.js 
 - **Scalability:** Designed to accommodate growth and expansion of themes and palettes as applications evolve.
 - **Enhanced User Experience:** Facilitates cohesive and visually appealing interfaces for end-users.
 
-Level up your Next.js applications with 'next-theme', making theme and palette management a breeze.
+Level up your Next.js applications with 'next-scheme', making theme and palette management a breeze.
 
 ## License
 

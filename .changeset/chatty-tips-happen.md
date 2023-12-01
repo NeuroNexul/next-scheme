@@ -1,5 +1,5 @@
 ---
-"next-theme": patch
+"next-scheme": patch
 ---
 
 Initialized the project
