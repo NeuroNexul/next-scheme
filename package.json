@@ -1,7 +1,7 @@
 {
-  "name": "ts-pkg-template",
+  "name": "next-theme",
   "version": "0.0.1",
-  "description": "A template for creating TypeScript packages",
+  "description": "A type-safe Node.js package simplifying theme and palette management in Next.js (v13+) applications.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
