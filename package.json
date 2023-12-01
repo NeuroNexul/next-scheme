@@ -1,6 +1,6 @@
 {
   "name": "next-scheme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A type-safe Node.js package simplifying theme and palette management in Next.js (v13+) applications.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
