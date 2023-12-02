@@ -30,6 +30,10 @@
     "name": "Arif Sardar",
     "url": "https://arif.thedev.id"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeuroNexul/next-theme"
+  },
   "license": "MIT",
   "private": false,
   "devDependencies": {
