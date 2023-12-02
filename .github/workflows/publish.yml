@@ -29,6 +29,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            provenance=true
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Create release Pull Requests or Publish
         id: changesets
         uses: changesets/action@v1
